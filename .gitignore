@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (too large for GitHub)
+data/raw/*.csv
+data/raw/*.txt
+*.pkl
+*.h5
+
+# Results (generated files)
+results/models/*.pkl
+results/models/*.h5
+results/metrics/*.png
+results/reports/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
